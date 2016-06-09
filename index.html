@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Invoicer WebUI</title>
+        <script src="jquery-1.12.4.min.js"></script>
+        <script src="invoicer-cli.js"></script>
+		<link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+		<p class="desc-invoice"></p>
+        <div class="invoice-details">
+        </div>
+		<form id="invoiceGetter" method="GET">
+			<h3>Request an invoice by ID</h3>
+			<label>ID :</label>
+			<input id="invoiceid" type="text" />
+			<input type="submit" />
+		</form>
+    </body>
+</html>
